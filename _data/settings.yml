@@ -1,16 +1,16 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross - Jekyll Portfolio Template
+title: eSaathi - Assistive UI
 logo: logo.png
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: esaathiatfc@email.com
+phone: +91 7047031155
+address: IIT Kharagpur
 
 menu:
-- {name: About, link: '/about/'}
+
+- {name: Features, link: '/about/'}
 - {name: Blog, link: '/blog/'}
-- {name: Portfolio, link: '/portfolio/'}
 - {name: Contact, link: '/contact/'}
 
 
@@ -35,8 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! We're <br> eSaathi <br> An Assistive UI Platform
-
+  hero-title: Hi! We're <br> eSaathi <br> An Assistive UI <br> Platform
 social:
 - {icon: "ti-facebook", link: "#"}
 - {icon: "ti-instagram", link: "#"}
@@ -49,7 +48,8 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  To get over the hurdle of hesitation, discomfort and unavailability which comes along with interaction with a human
+  friend, we bring to you a digital friend, the one app for Unleashing Bharat’s True Technological Potential - eSaathi.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -90,33 +90,34 @@ team:
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: Validation Metrics
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Ease of Use, color: '#fdb157', value: '80%'}
+- {name: Trust, color: '#9473e6', value: '70%'}
+- {name: Feasability, color: '#bdecf6', value: '90%'}
+- {name: Scalability, color: '#ffbcaa', value: '80%'}
 
 
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
+experience-title: Customer Segments
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
-
+#- {name: Baby Boomers, icon: 'grandparents.png', date: 'Grand Parents', organization: 'Uber'}
+- {name: Millenials, icon: 'family.png', date: 'Parents', organization: 'PayTM'}
+- {name: Centennials, icon: 'student.png', date: 'Rural Students', organization: 'ePathshala'}
+- {name: Medical Practioners, icon: 'nurse.png', date: 'Nurses', organization: 'Medical Devices'}
+- {name: Agriculturalists, icon: 'farmer.png', date: 'Farmers', organization: 'AgriApp'}
 
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: Already Working For
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: Paytm, date: 'Software', organization: 'Recharge'}
+- {name: AgriApp, date: 'Software', organization: 'Shop'}
+- {name: Laptops, date: 'Hardware', organization: 'Surf'}
+- {name: Microwaves, date: 'Hardware', organization: 'Grill'}
 
 
 #-------------------------------
@@ -125,21 +126,24 @@ education:
 services-title: Services
 services:
 - {
-    name: UI Design,
+    name: Software Assistance,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Provides audio-visual guided assistance for a step-by-step navigation through all apps, augmenting a real human being.',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
+    name: Frameworks Used,
     icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
+    description: 'The master app supports touch as well as a voice-based query requests handler
+through IBM Watson API. The hardware assistance mode is developed using
+Unity long with Vuforia AR support.',
+   active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
+    name: Hardware Assistance,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Provides digital manuals for all hardware devices taking you through a step-by-step process on
+how to use that device.',
     active: # Add true to select section
   }
 
